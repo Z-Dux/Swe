@@ -1,0 +1,17 @@
+{
+  "name": "revolt",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "ksuid": "^3.0.0",
+    "ws": "^8.18.1"
+  }
+}
